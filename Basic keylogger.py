@@ -14,7 +14,7 @@ def on_press(key):
 
 def on_release(key):
     if key == keyboard.Key.esc:
-        # Stops listener when ESC is pressed
+       
         print("[+] Exiting...")
         print("[+] Final Log:", log)
         return False
