@@ -14,7 +14,6 @@ def on_press(key):
 
 def on_release(key):
     if key == keyboard.Key.esc:
-       
         print("[+] Exiting...")
         print("[+] Final Log:", log)
         return False
